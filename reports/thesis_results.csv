@@ -1,0 +1,4 @@
+﻿experiment,model,imgsz,epochs,precision,recall,mAP50,mAP50_95,model_size_MB,inference_ms,fps,best_pt
+yolo11n_remote_512,yolo11n.pt,512,51,0.92361,0.85423,0.93622,0.6708,5.206072807312012,19.482152089476585,51.329031587847865,runs/detect/runs/remote_yolo/yolo11n_remote_512/weights/best.pt
+yolo11n_remote_640,yolo11n.pt,640,99,0.94331,0.92696,0.94378,0.69337,5.227984428405762,19.461641311645508,51.3831276605441,runs/detect/runs/remote_yolo/yolo11n_remote_640/weights/best.pt
+yolo11s_remote_640,yolo11s.pt,640,101,0.93193,0.92368,0.9513,0.71885,18.29939556121826,18.85239377617836,53.04366182206458,runs/detect/runs/remote_yolo/yolo11s_remote_640/weights/best.pt
