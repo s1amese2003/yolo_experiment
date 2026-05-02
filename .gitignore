@@ -1,6 +1,5 @@
 datasets/
 exports/
-*.pt
 *.onnx
 *.engine
 *.cache
