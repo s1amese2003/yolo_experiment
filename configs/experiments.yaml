@@ -1,0 +1,24 @@
+# Minimal-cost thesis experiments.
+# Run YOLO11n as the main lightweight model, YOLO11s as the accuracy baseline,
+# and YOLO11n at a smaller input size as the faster deployment variant.
+
+project: runs/remote_yolo
+
+experiments:
+  - name: yolo11s_remote_640
+    model: yolo11s.pt
+    imgsz: 640
+    epochs: 100
+    batch: 16
+
+  - name: yolo11n_remote_640
+    model: yolo11n.pt
+    imgsz: 640
+    epochs: 100
+    batch: 16
+
+  - name: yolo11n_remote_512
+    model: yolo11n.pt
+    imgsz: 512
+    epochs: 100
+    batch: 16
